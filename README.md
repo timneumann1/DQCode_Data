@@ -1,4 +1,4 @@
 This repository contains all optimisation and simulation data produced in the DQCode project. 
 
 > [!NOTE]
-> The simulation data column `avg_fidelity` contains the average overlap of corrected state and target state, instead of the average fidelity. This has been fixed in the codebase. With high probability, however, these two metrics are identical for the experiments at hand (since the fidelity per run is either 0.0 or 1.0 in most, if not all, runs).
+> The simulation data column `avg_fidelity` has been computed as the average overlap of corrected state and target state, instead of the average fidelity (squared overlap). This has been fixed in the codebase; however, these two metrics actually coincide for the experiments at hand, since the circuit-level noise and Pauli corrections cannot induce a non-Pauli logical error at the end of the circuit.
