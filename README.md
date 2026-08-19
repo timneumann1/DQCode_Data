@@ -4,4 +4,4 @@ This repository contains all optimisation and simulation data produced as part o
 
 **DQCode: Fault-Tolerant Zero State Preparation for Small qLDPC Codes on Near-Term Distributed Quantum Architectures**
 
-The main repository can be accessed at available at [github.com/timneumann1/DQCode](https://github.com/timneumann1/DQCode)
+The main repository can be accessed at available at [github.com/timneumann1/DQCode](https://github.com/timneumann1/DQCode).
